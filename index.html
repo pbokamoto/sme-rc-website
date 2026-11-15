@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>一般社団法人ＳＭＥリスクコンサルティング</title>
+  <meta name="claude:viewport-fit-sides" content="cover">
+  <meta name="description" content="中小企業の財務改善を、計画力と金融を駆使して強化するコンサルティング法人です。事業継続力強化計画（ジギョケイ）の策定支援、決算書の分析、地震保険・休業補償・融資の組み立てで、災害に強い会社づくりをお手伝いします。">
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Noto+Sans+JP:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="一般社団法人ＳＭＥリスクコンサルティング トップへ">
+        <img src="images/logo.png" alt="SME" width="640" height="199">
+        <span class="logo-text">
+          <span class="logo-sub">一般社団法人</span>
+          <span class="logo-main">ＳＭＥリスクコンサルティング</span>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="メニューを開く" aria-expanded="false" aria-controls="global-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="global-nav" class="global-nav" aria-label="メインメニュー">
+        <ul>
+          <li><a href="#about">私たちについて</a></li>
+          <li><a href="#service">事業内容</a></li>
+          <li><a href="#flow">支援の流れ</a></li>
+          <li><a href="#message">代表挨拶</a></li>
+          <li><a href="#company">法人概要</a></li>
+          <li><a href="news.html">お知らせ</a></li>
+          <li><a href="#contact" class="nav-cta">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- メインビジュアル -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-inner">
+          <div>
+            <p class="hero-eyebrow">レジリエンス強化・財務改善コンサルティング</p>
+            <h1 class="hero-title">災害に強い会社は、<br><span class="hl">財務から</span>つくる。</h1>
+            <p class="hero-text">中小企業の財務改善を、計画力と金融を駆使して強化する<span class="nw">コンサルティング法人</span>です。<span class="nw">事業継続力強化計画（ジギョケイ）</span>の策定を入口に、決算書の分析から、<span class="nw">地震保険・休業補償・融資</span>の組み立てまで、被災しても事業と<span class="nw">資金繰りを止めない</span>備えをつくります。</p>
+            <div class="hero-buttons">
+              <a href="#contact" class="btn btn-accent btn-arrow">無料で相談する</a>
+              <a href="#service" class="btn btn-ghost">事業内容を見る</a>
+            </div>
+          </div>
+
+          <figure class="hero-photo"><img src="images/hero-team.jpg" alt="工場の前に並び、ガッツポーズをする経営者と社員" width="1800" height="1200" fetchpriority="high"></figure>
+        </div>
+
+          <aside class="hero-card hero-card-band" aria-label="ジギョケイ認定で受けられる主な支援">
+            <div class="hero-card-head">
+              <div>
+                <p class="hero-card-label">JIGYOKEI</p>
+                <p class="hero-card-title">ジギョケイの認定で<br>受けられる主な支援</p>
+              </div>
+              <p class="trust-badge"><span class="trust-mark" aria-hidden="true">信</span><span class="trust-text"><strong>取引先・金融機関の信頼</strong>認定ロゴマークを<span class="nw">名刺・Webで使用可</span></span></p>
+            </div>
+            <ul class="merit-list">
+              <li><span class="merit-icon" aria-hidden="true">税</span><p><strong>税制の優遇</strong><span>防災・減災のための設備投資に特別償却</span></p></li>
+              <li><span class="merit-icon" aria-hidden="true">融</span><p><strong>金融の支援</strong><span>日本政策金融公庫の低利融資、信用保証枠の拡大など</span></p></li>
+              <li><span class="merit-icon" aria-hidden="true">補</span><p><strong>補助金の加点</strong><span>ものづくり補助金などの審査で加点</span></p></li>
+              <li><span class="merit-icon" aria-hidden="true">損</span><p><strong>損害保険料の割引</strong><span>一部の損害保険で、認定事業者向けの保険料割引あり</span></p></li>
+            </ul>
+            <p class="hero-card-note">※ 支援の内容・条件は年度により変わります。最新の要件は<span class="nw">ご相談時にご案内します。</span></p>
+          </aside>
+
+        <!-- 被災後の手元資金の動き（財務インパクト図） -->
+        <figure class="impact" aria-labelledby="impact-title">
+          <div class="impact-head">
+            <div>
+              <p class="impact-en">FINANCIAL IMPACT</p>
+              <h2 id="impact-title" class="impact-title">被災後の手元資金の動き<span class="impact-note-inline">（イメージ）</span></h2>
+              <p class="impact-lead">売上が止まっても、支払いは続きます。<span class="nw">備えの有無で、</span><span class="nw">資金の底が変わります。</span></p>
+            </div>
+            <ul class="impact-legend">
+              <li class="lg-prep">備えた場合<small>保険・融資の手当てあり</small></li>
+              <li class="lg-none">備えがない場合</li>
+            </ul>
+          </div>
+          <div class="impact-scroll">
+            <div class="impact-chart">
+              <p class="impact-axis-y">手元資金</p>
+            <svg viewBox="0 0 1000 400" role="img" aria-labelledby="impact-title impact-desc">
+              <desc id="impact-desc">発災から120日後までの手元資金の動き。備えがない場合は60日を過ぎたころに資金が底をつき、備えた場合は保険金と融資で資金を支え、操業再開とともに回復していくイメージ。</desc>
+              <rect class="ib-short" x="0" y="330" width="1000" height="70"></rect>
+              <rect class="ib-rebuild" x="652.3" y="40" width="124" height="290"></rect>
+              <line class="ib-grid" x1="0" y1="190.0" x2="1000" y2="190.0"></line>
+              <line class="ib-zero" x1="0" y1="330" x2="1000" y2="330"></line>
+              <text class="ib-zero-label" x="10" y="356">資金ショートライン</text>
+              <text class="ib-band-label" x="714.3" y="30" text-anchor="middle">再建費用の支出</text>
+              <polyline class="ib-line ib-none" points="71.4,78.0 214.3,83.6 357.1,114.4 500.0,167.6 642.9,229.2 785.7,352.4"></polyline>
+              <polyline class="ib-line ib-prep" points="71.4,78.0 214.3,83.6 357.1,108.8 500.0,156.4 642.9,206.8 785.7,190.0 928.6,139.6"></polyline>
+              <g class="ib-cross" transform="translate(785.7,352.4)"><line x1="-11" y1="-11" x2="11" y2="11"></line><line x1="11" y1="-11" x2="-11" y2="11"></line></g>
+              <text class="ib-none-label" x="763.7" y="358.4" text-anchor="end">資金が底をつく</text>
+              <circle class="ib-dot" cx="71.4" cy="78.0" r="6"></circle>
+              <g class="ib-badge b-1"><circle cx="214.3" cy="43.599999999999994" r="17"></circle><text x="214.3" y="50.099999999999994" text-anchor="middle">1</text></g>
+              <g class="ib-badge b-2"><circle cx="526.0" cy="211.6" r="17"></circle><text x="526.0" y="218.1" text-anchor="middle">2</text></g>
+              <g class="ib-badge b-3"><circle cx="714.3" cy="70" r="17"></circle><text x="714.3" y="76.5" text-anchor="middle">3</text></g>
+              <g class="ib-badge b-4"><circle cx="779.7" cy="146.0" r="17"></circle><text x="779.7" y="152.5" text-anchor="middle">4</text></g>
+              <g class="ib-badge b-5"><circle cx="908.6" cy="95.6" r="17"></circle><text x="908.6" y="102.1" text-anchor="middle">5</text></g>
+            </svg>
+              <ol class="impact-axis-x" aria-label="発災からの日数">
+                <li>発災</li><li>7日後</li><li>15日後</li><li>30日後</li><li>60日後</li><li>90日後</li><li>120日後</li>
+              </ol>
+            </div>
+          </div>
+          <ol class="impact-steps">
+            <li><span class="st-num">1</span><p><strong>発災直後の対応</strong>社員の救援、施設の応急処置などの支出</p></li>
+            <li><span class="st-num">2</span><p><strong>止まらない支払い</strong>売上が止まっても、取引先への支払いや給与は続く</p></li>
+            <li><span class="st-num">3</span><p><strong>再建費用</strong>建物・設備を直すための大きな支出</p></li>
+            <li class="st-prep"><span class="st-num">4</span><p><strong>保険金・融資の受取</strong>地震保険・休業補償と融資で、資金の底を支える</p></li>
+            <li class="st-prep"><span class="st-num">5</span><p><strong>操業再開による収入</strong>事業を続けられた会社は、ここから回復へ</p></li>
+          </ol>
+          <figcaption class="impact-source">東京海上ディーアール株式会社の資料を参考に作成したイメージ図です。金額や期間は会社によって異なります。</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 私たちについて -->
+    <section id="about" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-en">About us</span>
+          <h2 class="section-title">備えを「計画・保険・金融」の<br class="sp-only">3つでつなぎます</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-body">
+            <p class="about-strong"><span class="ib">大きな災害のあと、</span><span class="ib">会社を止めるのは</span><span class="ib">建物の被害だけでは</span><span class="ib">ありません。</span><br><span class="ib">売上が止まっても</span><span class="ib">出ていく、</span><span class="ib">人件費や</span><span class="ib">借入の返済です。</span></p>
+            <p>多くの中小企業では、防災の計画、損害保険、金融機関との取引が、それぞれ別々に考えられています。そのため、被災したときに<span class="nw">「いくら足りなくなるのか」</span><span class="nw">「どこから補うのか」</span>が数字で見えていないことが少なくありません。</p>
+            <p>私たちは、決算書をもとに被災時に必要となる資金を試算し、事業継続力強化計画（ジギョケイ）の策定、地震保険・休業補償の見直し、融資の組み立てを一つの計画としてご提案します。証券会社と生損保会社で培った、金融と保険の両面の知見が私たちの土台です。</p>
+          </div>
+          <figure class="about-photo"><img src="images/about-meeting.jpg" alt="グラフの入った資料を前に打ち合わせをする手元" width="1400" height="933" loading="lazy"></figure>
+          <div class="three-keys">
+            <div class="key key-plan">
+              <span class="key-mark" aria-hidden="true">計</span>
+              <div><h3>計画｜ジギョケイ</h3><p>自社の災害リスクと初動対応、必要な設備投資を、国の認定制度に沿って計画にします。</p></div>
+            </div>
+            <div class="key key-insure">
+              <span class="key-mark" aria-hidden="true">保</span>
+              <div><h3><span class="nw">保険｜地震保険・</span><span class="nw">休業補償</span></h3><p>建物・設備の損害と、休業中に失われる利益の両方を、過不足なく補える形に整えます。</p></div>
+            </div>
+            <div class="key key-finance">
+              <span class="key-mark" aria-hidden="true">融</span>
+              <div><h3>金融｜融資の最適化</h3><p>保険で補えない部分を、認定に伴う低利融資や借入条件の見直しで手当てします。</p></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 被災時の資金ギャップ（イメージ図） -->
+        <figure class="gap-figure">
+          <h3>被災後の休業期間に、資金はどれだけ足りなくなるか</h3>
+          <p>決算書から、休業中も払い続ける費用と、それを何で補うかを並べて確認します<span class="nw">（図はイメージです）</span>。</p>
+          <div class="gap-row">
+            <span class="gap-label">備える前</span>
+            <div class="gap-bar" role="img" aria-label="備える前は、必要資金のうち手元資金で補えない部分が大きく残る">
+              <span class="seg-own">手元資金</span>
+              <span class="seg-gap">不足する資金</span>
+              <span class="seg-need">復旧費</span>
+            </div>
+          </div>
+          <div class="gap-row">
+            <span class="gap-label">備えた後</span>
+            <div class="gap-bar" role="img" aria-label="備えた後は、手元資金・休業補償・地震保険・融資で必要資金をまかなう">
+              <span class="seg-own">手元資金</span>
+              <span class="seg-bi">休業補償</span>
+              <span class="seg-ins">地震保険</span>
+              <span class="seg-loan">融資枠</span>
+            </div>
+          </div>
+          <figcaption class="gap-note">休業中も払い続ける費用（人件費・家賃・借入の返済など）と、建物・設備の復旧費を合わせた金額を「必要資金」として試算します。</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 事業内容 -->
+    <section id="service" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-en">Service</span>
+          <h2 class="section-title">事業内容</h2>
+          <p class="section-lead">決算書の分析を出発点に、計画づくりから保険・融資の見直しまでを一貫してお手伝いします。</p>
+        </div>
+
+        <div class="service-list">
+          <article class="service service-plan service-with-photo">
+            <div>
+              <span class="service-tag">計画 × 財務分析</span>
+              <h3>ジギョケイ（事業継続力強化計画）の策定支援と財務諸表分析</h3>
+              <p class="service-desc">中小企業庁が認定する<span class="nw">「事業継続力強化計画」</span>の策定と申請をサポートします。あわせて決算書を分析し、被災時に必要となる資金と、平時から改善できる財務の課題を数字で明らかにします。</p>
+              <ul class="service-points">
+                <li><strong>決算書の分析</strong><span>損益・資金繰り・借入の状況から、<span class="nw">休業1か月あたり</span>に必要な資金を試算</span></li>
+                <li><strong>ハザードの確認と初動対応の整理</strong><span>拠点ごとの地震・水害リスクを確認し、被災直後の行動を計画に</span></li>
+                <li><strong>計画書の作成と電子申請のサポート</strong><span>認定に必要な記載内容をヒアリングし、申請まで伴走</span></li>
+              </ul>
+            </div>
+            <figure class="service-photo"><img src="images/jigyokei-drill.jpg" alt="避難後の集合場所で、担当者がクリップボードを手に社員へ説明している様子" width="1400" height="787" loading="lazy"></figure>
+          </article>
+
+          <article class="service service-risk service-with-photo">
+            <div>
+              <span class="service-tag">保険 × 金融</span>
+              <h3>大規模災害に対するリスクマネジメントのご提案</h3>
+              <p class="service-desc">地震保険・休業補償・融資を、別々ではなく一つの資金計画として組み立てます。保険で補う部分と融資で手当てする部分を分けることで、保険料と借入コストのバランスを整えます。</p>
+              <ul class="service-points">
+                <li><strong>地震保険（地震危険補償）の見直し</strong><span>建物・設備・在庫の補償額が、実際の復旧費に見合っているかを確認</span></li>
+                <li><strong>休業補償（利益保険）の設計</strong><span>休業中も続く固定費と、失われる利益をもとに必要な補償を設計</span></li>
+                <li><strong>融資の最適化</strong><span>ジギョケイ認定に伴う低利融資の活用や、既存借入の条件見直しをご提案</span></li>
+              </ul>
+            </div>
+            <figure class="service-figure fund-mix" aria-labelledby="fund-mix-cap">
+              <div class="fm-chart">
+                <div class="fm-col">
+                  <p class="fm-head">必要な資金</p>
+                  <div class="fm-stack">
+                    <span class="fm-need1" style="--f:3">建物・設備の<br>復旧費</span>
+                    <span class="fm-need2" style="--f:2.4">人件費・家賃<br>などの固定費</span>
+                    <span class="fm-need3" style="--f:1.6">借入の返済</span>
+                  </div>
+                </div>
+                <span class="fm-eq" aria-hidden="true">＝</span>
+                <div class="fm-col">
+                  <p class="fm-head">まかなう資金</p>
+                  <div class="fm-stack">
+                    <span class="fm-eqk" style="--f:2.6">地震保険</span>
+                    <span class="fm-bi" style="--f:2.4">休業補償</span>
+                    <span class="fm-loan" style="--f:1.2">融資</span>
+                    <span class="fm-own" style="--f:.8">手元資金</span>
+                  </div>
+                </div>
+                <div class="fm-brackets" aria-hidden="true">
+                  <span class="fm-br fm-br-ins" style="--f:5">保険で<br>補う</span>
+                  <span class="fm-br fm-br-loan" style="--f:1.2">融資で<br>補う</span>
+                  <span class="fm-br-gap" style="--f:.8"></span>
+                </div>
+              </div>
+              <figcaption id="fund-mix-cap" class="fm-cap">被災時に必要な資金を、<span class="nw">保険・融資・手元資金で</span><span class="nw">過不足なくまかなう</span>組み立て例です。<small>（イメージ）</small></figcaption>
+            </figure>
+          </article>
+
+          <article class="service service-dc service-with-photo">
+            <div>
+              <span class="service-tag">人材 × 福利厚生</span>
+              <h3><span class="nw">企業型確定拠出年金</span><span class="nw">（企業型DC）</span>の<span class="nw">導入支援</span></h3>
+              <p class="service-desc">社員の資産形成を支え、人材の確保・定着にもつながる企業型確定拠出年金の導入を、制度設計から社員説明会、導入後の継続教育まで支援します。</p>
+              <ul class="service-points">
+                <li><strong>制度設計のご相談</strong><span>掛金の設定や、既存の退職金制度との組み合わせを検討</span></li>
+                <li><strong>導入手続きと社員説明会</strong><span>導入時の説明会から、継続的な投資教育まで</span></li>
+              </ul>
+            </div>
+            <figure class="service-photo"><img src="images/dc-seminar.jpg" alt="社員向けの説明会で講師が説明している様子" width="1400" height="788" loading="lazy"></figure>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 支援の流れ -->
+    <section id="flow" class="section section-alt">
+      <div class="container">
+        <div class="section-head center">
+          <span class="section-en">Flow</span>
+          <h2 class="section-title">ご相談から認定後まで</h2>
+          <p class="section-lead">初回のご相談は無料です。決算書<span class="nw">（直近2〜3期分）</span>をご用意いただくと、より具体的なお話ができます。</p>
+        </div>
+        <ol class="flow">
+          <li><h3>無料相談</h3><p>事業の内容と、災害への備えの現状をお伺いします。オンラインでも対応します。</p></li>
+          <li><h3>決算書の分析</h3><p>資金繰りと借入の状況から、被災時に必要な資金を試算します。</p></li>
+          <li><h3>ジギョケイの策定</h3><p>リスクの確認と初動対応を計画にまとめ、申請までサポートします。</p></li>
+          <li><h3>保険・融資のご提案</h3><p>地震保険・休業補償と融資を組み合わせ、不足する資金を埋める案をご提示します。</p></li>
+          <li><h3>認定後のフォロー</h3><p>計画の見直しや訓練の実施、決算ごとの点検を続けてお手伝いします。</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 代表挨拶 -->
+    <section id="message" class="section">
+      <div class="container message">
+        <div class="message-body">
+          <div class="section-head">
+            <span class="section-en">Message</span>
+            <h2 class="section-title">代表挨拶</h2>
+          </div>
+          <p class="message-catch"><span class="ib">数字で備えることが、</span><span class="ib">社員と取引先を</span><span class="ib">守ることにつながると</span><span class="ib">考えています。</span></p>
+          <p>証券会社で金融の基礎を学び、生命保険会社・損害保険会社では、<span class="nw">FP・財務コンサルタント</span>として多くの経営者の方とお会いしてきました。そのなかで、災害への備えが<span class="nw">「保険に入っているから大丈夫」</span>で止まり、被災後の資金繰りまでは考えられていない会社が多いことを感じてきました。</p>
+          <p>当法人では、決算書の分析と事業継続力強化計画を軸に、保険と融資を組み合わせて、被災しても事業を続けられる財務の土台づくりをお手伝いします。地域の中小企業の皆さまが、安心して本業に向き合えるよう、一社一社に寄り添って取り組んでまいります。</p>
+          <div class="message-sign">
+            <p class="message-role">一般社団法人ＳＭＥリスクコンサルティング　代表理事</p>
+            <p class="message-name">岡本 卓也<small>Takuya Okamoto</small></p>
+            <ul class="badges">
+              <li>CFP<sup>®</sup></li>
+              <li>1級ファイナンシャル・プランニング技能士</li>
+              <li>一種証券外務員</li>
+              <li>銀行融資診断士<sup>®</sup></li>
+            </ul>
+            <ol class="career" aria-label="経歴">
+              <li>証券会社</li>
+              <li>生命保険会社</li>
+              <li>損害保険会社</li>
+              <li>FP・財務コンサルタントとして独立</li>
+            </ol>
+            <div class="message-profile">
+              <p>証券会社での経験から、<span class="nw">株式の長期投資</span>を主軸とした、<br class="pc-only"><span class="nw">ファイナンシャル・プランニング</span>を得意としています。</p>
+              <p>生命保険会社でライフプランを学び、損害保険会社でリスクマネジメントを学びました。<span class="nw">FPとして独立</span>してからは、個人のファイナンシャル・プランニングと、<br class="pc-only"><span class="nw">法人の財務コンサルティング</span>を主軸に活動しています。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 理事紹介（理事を追加するときは、member-card を1つ複製して書き換える） -->
+      <div id="members" class="container members">
+        <div class="section-head">
+          <span class="section-en">Members</span>
+          <h2 class="section-title">理事紹介</h2>
+        </div>
+        <div class="member-grid">
+          <article class="member-card">
+            <p class="member-role">理事</p>
+            <h3 class="member-name">戸塚 正美<small>Masami Totsuka</small></h3>
+            <ul class="badges">
+              <li>2級ファイナンシャル・プランニング技能士</li>
+              <li>一種証券外務員</li>
+              <li>相続診断士<sup>®</sup></li>
+              <li>確定拠出年金診断士<sup>®</sup></li>
+            </ul>
+            <ol class="career" aria-label="経歴">
+              <li>証券会社</li>
+              <li>保険会社</li>
+              <li>保険代理店</li>
+            </ol>
+            <p class="member-text">証券会社、保険会社、保険代理店と<span class="nw">40年以上</span>にわたり、金融業界に身を置き、個人のライフプラン、法人のリスクマネジメントを行ってきました。</p>
+            <p class="member-text">近年では、<span class="nw">企業型確定拠出年金</span>のコンサルティング・社員の投資教育など、企業の福利厚生を支援し、社員が長く働くことができる伴走者として活動しています。</p>
+          </article>
+          <article class="member-card">
+            <p class="member-role">理事</p>
+            <h3 class="member-name">渡辺 誠<small>Makoto Watanabe</small></h3>
+            <ul class="badges">
+              <li>生命保険協会認定FP</li>
+            </ul>
+            <ol class="career" aria-label="経歴">
+              <li>保険会社</li>
+              <li>保険代理店</li>
+            </ol>
+            <p class="member-text">保険会社から保険代理店へと、<span class="nw">22年</span>にわたり保険業界に身を置き、特に法人のリスクマネジメントに携わってきました。</p>
+            <p class="member-text">近年は、<span class="nw">ジギョケイ（事業継続力強化計画）</span>の推進を通じて、損害保険による法人のリスク管理に力を入れて活動しています。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- お知らせ（新しいものを上に。全件は news.html） -->
+    <section id="news" class="section section-alt">
+      <div class="container news-inner">
+        <div class="section-head">
+          <span class="section-en">News</span>
+          <h2 class="section-title">お知らせ</h2>
+        </div>
+        <div>
+          <ul class="news-list">
+            <li><a href="news.html#news-renewal"><time datetime="2026-10-24">2026.10.24</time><span class="news-cat">お知らせ</span><span class="news-title">ホームページをリニューアルしました</span></a></li>
+          </ul>
+          <p class="news-more"><a href="news.html" class="link-more">お知らせ一覧へ</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 法人概要 -->
+    <section id="company" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-en">Company</span>
+          <h2 class="section-title">法人概要</h2>
+        </div>
+        <dl class="company-table">
+          <dt>名称</dt><dd>一般社団法人ＳＭＥリスクコンサルティング</dd>
+          <dt>代表理事</dt><dd>岡本 卓也<br><span class="nw">CFP<sup>®</sup></span>・<span class="ib">1級ファイナンシャル・</span><span class="ib">プランニング技能士</span>・<span class="nw">一種証券外務員</span>・<span class="nw">銀行融資診断士<sup>®</sup></span></dd>
+          <dt>所在地</dt><dd>〒444-0951<br>愛知県岡崎市北野町字畔北43番地10</dd>
+          <dt>電話番号</dt><dd><a href="tel:0564477748">0564-47-7748</a></dd>
+          <dt>FAX</dt><dd><a href="tel:0564477787">0564-47-7787</a></dd>
+          <dt>メール</dt><dd><a href="mailto:info@sme-rc.or.jp">info@sme-rc.or.jp</a></dd>
+          <dt>事業内容</dt>
+          <dd>
+            <ul>
+              <li>事業継続力強化計画（ジギョケイ）の策定支援</li>
+              <li>中小企業の財務諸表分析・財務改善コンサルティング</li>
+              <li>大規模災害に対するリスクマネジメント（地震保険・休業補償・融資最適化）のご提案</li>
+              <li>企業型確定拠出年金（企業型DC）の導入支援</li>
+            </ul>
+          </dd>
+        </dl>
+
+        <div class="notice-box">
+          <h3>保険・金融商品のお取り扱いについて</h3>
+          <p>当法人のメンバーは、保険代理店に所属する保険募集人です。保険契約のご提案とお手続きは、所属する保険代理店の募集人資格に基づいて行います。</p>
+          <p>資産形成に関わるご相談は、内容により提携する金融商品仲介業者へお引き継ぎすることがあります。その際は、<span class="nw">事前にご説明のうえ、</span><span class="nw">ご同意をいただきます。</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- お問い合わせ -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="section-head center">
+          <span class="section-en">Contact</span>
+          <h2 class="section-title">お問い合わせ</h2>
+          <p class="section-lead">初回のご相談は無料です。お電話・メール・下のフォームから、お気軽にご連絡ください。</p>
+        </div>
+
+        <div class="contact-boxes">
+          <div class="contact-box">
+            <p class="contact-label">TEL</p>
+            <p class="contact-value"><a href="tel:0564477748">0564-47-7748</a></p>
+            <p class="contact-note">平日 10:00〜17:00</p>
+          </div>
+          <div class="contact-box">
+            <p class="contact-label">FAX</p>
+            <p class="contact-value">0564-47-7787</p>
+            <p class="contact-note">24時間受け付けています</p>
+          </div>
+          <div class="contact-box">
+            <p class="contact-label">MAIL</p>
+            <p class="contact-value"><a href="mailto:info@sme-rc.or.jp">info@sme-rc.or.jp</a></p>
+            <p class="contact-note">24時間受け付けています</p>
+          </div>
+        </div>
+
+        <!-- お問い合わせフォーム
+             送信先：Formspree（送信先URLは action に記載）。action を空にすると、メールソフトで開いて送る仕組みに戻ります（js/main.js）。 -->
+        <form id="contact-form" class="contact-form" action="https://formspree.io/f/maeoeebg" method="POST" data-mailto="info@sme-rc.or.jp" novalidate>
+          <p class="form-lead">必要事項をご入力のうえ、送信してください。</p>
+          <div class="form-row">
+            <label for="f-topic">ご用件<span class="req">必須</span></label>
+            <select id="f-topic" name="ご用件" required>
+              <option value="">選択してください</option>
+              <option>ジギョケイ（事業継続力強化計画）の策定について</option>
+              <option>決算書の分析・財務改善について</option>
+              <option>地震保険・休業補償の見直しについて</option>
+              <option>融資・資金繰りについて</option>
+              <option>企業型確定拠出年金について</option>
+              <option>お見積りのご依頼</option>
+              <option>採用について</option>
+              <option>その他</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="f-name">氏名<span class="req">必須</span></label>
+            <input id="f-name" name="氏名" type="text" autocomplete="name" required>
+          </div>
+          <div class="form-row">
+            <label for="f-company">会社・団体名<span class="req">必須</span></label>
+            <input id="f-company" name="会社・団体名" type="text" autocomplete="organization" required>
+          </div>
+          <div class="form-row">
+            <label for="f-email">メールアドレス<span class="req">必須</span></label>
+            <input id="f-email" name="メールアドレス" type="email" autocomplete="email" required>
+          </div>
+          <div class="form-row">
+            <label for="f-tel">電話番号<span class="req">必須</span></label>
+            <input id="f-tel" name="電話番号" type="tel" autocomplete="tel" inputmode="tel" pattern="[0-9０-９\-－ー\(\)（） ]{10,}" title="電話番号を入力してください（例：0564-47-7748）" required>
+          </div>
+          <div class="form-row form-row-top">
+            <label for="f-message">お問い合わせ内容<span class="req">必須</span></label>
+            <textarea id="f-message" name="お問い合わせ内容" rows="7" required></textarea>
+          </div>
+          <div class="form-agree">
+            <label for="f-agree"><input id="f-agree" type="checkbox" name="プライバシーポリシー" value="同意する" required> <a href="privacy.html" target="_blank">プライバシーポリシー</a>に同意する</label>
+          </div>
+          <p class="form-error" role="alert" hidden>未入力の必須項目があります。ご確認ください。</p>
+          <div class="form-actions"><button type="submit" class="btn btn-accent form-submit">送信する</button></div>
+          <p class="form-thanks" hidden>お問い合わせありがとうございます。内容を確認のうえ、担当者よりご連絡いたします。</p>
+        </form>
+        <p class="contact-privacy">お預かりした個人情報は、<a href="privacy.html">プライバシーポリシー</a>に基づき適切に取り扱います。</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- フッター -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="index.html" class="footer-logo"><img src="images/logo.png" alt="SME" width="640" height="199"></a>
+          <p class="footer-name">一般社団法人ＳＭＥリスクコンサルティング</p>
+          <p class="footer-address">〒444-0951　愛知県岡崎市北野町字畔北43番地10<br>TEL <a href="tel:0564477748">0564-47-7748</a>　FAX 0564-47-7787<br>Email <a href="mailto:info@sme-rc.or.jp">info@sme-rc.or.jp</a></p>
+        </div>
+        <ul class="footer-menu">
+          <li><a href="index.html#about">私たちについて</a></li>
+          <li><a href="index.html#service">事業内容</a></li>
+          <li><a href="index.html#flow">支援の流れ</a></li>
+          <li><a href="index.html#message">代表挨拶</a></li>
+          <li><a href="index.html#members">理事紹介</a></li>
+          <li><a href="index.html#company">法人概要</a></li>
+          <li><a href="news.html">お知らせ</a></li>
+          <li><a href="index.html#contact">お問い合わせ</a></li>
+          <li><a href="privacy.html">プライバシーポリシー</a></li>
+        </ul>
+      </div>
+      <p class="disclaimer">当サイトの内容は情報提供を目的としたものであり、特定の保険商品・金融商品の勧誘を目的とするものではありません。各種支援制度の内容・要件は変更されることがあります。</p>
+      <div class="footer-bottom">
+        <p><a href="privacy.html">プライバシーポリシー</a></p>
+        <p>&copy; <span id="year">2026</span> 一般社団法人ＳＭＥリスクコンサルティング</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
